@@ -1,6 +1,6 @@
 # passport-atlassian-oauth20
 
-[![Known Vulnerabilities](https://snyk.io/test/github/dannydeloff/passport-atlassian-oauth2/badge.svg)](https://snyk.io/test/github/dannydeloff/passport-atlassian-oauth2)
+[![Known Vulnerabilities](https://snyk.io/test/github/dannydeloff/passport-atlassian-oauth20/badge.svg)](https://snyk.io/test/github/dannydeloff/passport-atlassian-oauth20)
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Atlassian](https://atlassian.com) services using OAuth 2 3LO (three-legged OAuth).
@@ -15,7 +15,7 @@ $ npm install passport-atlassian-oauth20
 
 #### Create Application
 
-Before using `passport-atlassian-oauth2` you must register an application within [App Management](https://developer.atlassian.com/apps/). If you don't have one follow ["Enabling OAuth 2.0 authorization code grants"](https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/#enabling-oauth-2-0--3lo-) instructions from Jira documentation page.
+Before using `passport-atlassian-oauth20` you must register an application within [App Management](https://developer.atlassian.com/apps/). If you don't have one follow ["Enabling OAuth 2.0 authorization code grants"](https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/#enabling-oauth-2-0--3lo-) instructions from Jira documentation page.
 
 ⚠️Important: "User identity API" should be enabled in App Management for this strategy to work.
 
@@ -24,7 +24,7 @@ Before using `passport-atlassian-oauth2` you must register an application within
 The client ID and secret obtained when creating an application are supplied as options when creating the strategy.
 
 ```js
-const AtlassianStrategy = require('passport-atlassian-oauth2');
+const AtlassianStrategy = require('passport-atlassian-oauth20');
 
 passport.use(new AtlassianStrategy({
     clientID: '<ATLASSIAN_CLIENT_ID>',
