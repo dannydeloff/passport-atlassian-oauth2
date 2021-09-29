@@ -42,7 +42,7 @@ passport.use(new AtlassianStrategy({
 ## Sample Profile
 ```json
 {
-  "id": "112233aa-bb11-cc22-33dd-445566abcabc",
+  "id": "212233aa-bb11-cc22-33dd-445566abcabc",
   "username": "mkrystof",
   "displayName": "Mia Krystof",
   "email": "mia@example.com",
