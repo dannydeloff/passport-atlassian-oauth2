@@ -1,0 +1,40 @@
+{
+  "name": "passport-atlassian-oauth2",
+  "version": "0.1.0",
+  "description": "Atlassian authentication strategy for Passport",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannydeloff/passport-atlassian-oauth2.git"
+  },
+  "keywords": [
+    "passport",
+    "atlassian",
+    "auth",
+    "authentication"
+  ],
+  "author": "Daniel Deloff",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/dannydeloff/passport-atlassian-oauth2/issues"
+  },
+  "homepage": "https://github.com/dannydeloff/passport-atlassian-oauth2#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
+  }
+}

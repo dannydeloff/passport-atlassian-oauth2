@@ -1,0 +1,11 @@
+test/
+README.md
+
+# Node.js
+.npmignore
+node_modules/
+npm-debug.log
+
+.git*
+
+.idea
