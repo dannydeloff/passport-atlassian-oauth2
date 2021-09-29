@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1324a887-45db-1bf4-1e99-ef0ff456d421",
+    "name": "Jira Site name",
+    "url": "https://your-domain.atlassian.net",
+    "scopes": [
+      "write:jira-work",
+      "read:jira-user",
+      "manage:jira-configuration"
+    ],
+    "avatarUrl": "https://site-admin-avatar-cdn.prod.public.atl-paas.net/avatars/240/flag.png"
+  },
+  {
+    "id": "2324a887-45db-1bf4-1e99-ef0ff456d421",
+    "name": "Confluence Site name",
+    "url": "https://your-domain.atlassian.net",
+    "scopes": [
+      "write:confluence-content",
+      "read:confluence-content.all",
+      "manage:confluence-configuration"
+    ],
+    "avatarUrl": "https://site-admin-avatar-cdn.prod.public.atl-paas.net/avatars/240/flag.png"
+  }
+]
